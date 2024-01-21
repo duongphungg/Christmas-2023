@@ -6,13 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christmas</title>
     <!--Fontawesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cookie&family=Noto+Sans:wght@100&family=Playfair+Display:ital@1&display=swap"
+        rel="stylesheet">
     <link rel="icon" href="./src/images/icon.png">
     <link rel="stylesheet" href="./src/css/index.css">
     <link rel="stylesheet" href="./src/css/header.css">
     <link rel="stylesheet" href="./src/css/home.css">
     <link rel="stylesheet" href="./src/css/footer.css">
-    
+
 </head>
 
 <body>
@@ -21,7 +28,7 @@
         <!-- start header -->
         <header>
             <nav class="container">
-                <nav class="d-flex justify-between">
+                <nav class="d-flex justify-between items-center">
 
                     <nav class="logo">
                         <h1>Christmas!</h1>
@@ -29,27 +36,29 @@
 
                     <ul class="menu d-flex items-center">
                         <li class="menu-item">
-                            <a href="">home</a>
+                            <a href="index.html">home</a>
                         </li>
                         <li class="menu-item">
                             <a href="">about</a>
                         </li>
                         <li class="menu-item">
-                            <a href="">shop</a>
+                            <a href="shop.html">shop</a>
                         </li>
                         <li class="menu-item">
-                            <a href="">contact</a>
+                            <a href="contact.html">contact</a>
                         </li>
 
                     </ul>
 
                     <div class="search-box">
-
+                        <form action="">
+                            <input type="text" placeholder="Search here..." id="search-input">
+                        </form>
                     </div>
-                    <div class="author">
-                        <div class="cart">
-                            <i class="fa-solid fa-cart-shopping"><a href="sign-in.html"></a></i>
-                        </div>
+                    <div class="author d-flex justify-between items-center" id="user-action">
+                        <i class="fa-solid fa-user fa-lg" style="color: #000000;"></i>
+                        <a href="sign-in.html">sign-in</a>
+                        <a href="sign-up.html">sign-up</a>
 
                     </div>
                 </nav>
@@ -64,8 +73,12 @@
             <div class="slider">
 
             </div>
+            <!-- intro -->
             <div class="intro">
                 <div class="container">
+                    <div class="title">
+                        <h1><i>Happy Christmas</i></h1>
+                    </div>
                     <div class="d-flex">
                         <div class="video">
                             <iframe src="https://www.youtube.com/embed/F4YYZDbKxLY"
@@ -73,15 +86,43 @@
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowfullscreen></iframe>
                         </div>
-                        <div class="intro-text">
+                        <div class="intro-text d-flex items-center">
                             <h3>
-                                Christmas is a Christian festival that celebrates the birth of Jesus Christ, who
-                                Christians believe was the son of God. For most people, it takes place every year on 25
-                                December -
-                                the day that the Roman Catholic Church chose to mark Jesus’ birthday. But, in fact, no
-                                one actually knows the exact date Jesus was born!
+                                <i>Christmas is a Christian festival that celebrates the birth of Jesus Christ, who
+                                    Christians believe was the son of God. For most people, it takes place every year on
+                                    25
+                                    December -
+                                    the day that the Roman Catholic Church chose to mark Jesus’ birthday. But, in fact,
+                                    no
+                                    one actually knows the exact date Jesus was born!
+                                </i>
                             </h3>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <!--Main content-->
+            <div class="main-content">
+                <div class="container">
+                    <div class="title">
+                        <h1><i>Let's Get Something For Christmas</i></h1>
+                    </div>
+                    <div class="d-flex justify-center items-center">
+                        <div class="main-banner ">
+                            <video autoplay muted loop
+                                src="https://res-3.cloudinary.com/papier/video/upload/c_fill,q_80:qmax_20,w_624/v1/remote_assets/user_photos/images/000/588/035/original/ezgif.com-gif-to-mp4_%281%29.webm">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-center items-center main-content-product">
+                        <img src="https://papier.imgix.net/https%3A%2F%2Fd1o785do8fyxgx.cloudfront.net%2Fstock_item%2Fstock_item_images%2Fimages%2F000%2F000%2F580%2Foriginal%2FEMP_FINELINERS_SET_1_ECOMM_RESIZED.png%3F1676473664?ixlib=rb-3.2.1&w=352&h=352&auto=format%2Ccompress&s=9dc67bfc0e348e99dc428763ebc3eccc"
+                            alt="">
+                        <img src="https://papier.imgix.net/https%3A%2F%2Fd1o785do8fyxgx.cloudfront.net%2Fstock_item%2Fstock_item_images%2Fimages%2F000%2F001%2F251%2Foriginal%2FPapier_MakeYourMark003.png%3F1699026818?ixlib=rb-3.2.1&w=352&h=352&auto=format%2Ccompress&s=51adb83b457d43baac1762ddfa95c57f"
+                            alt="">
+                        <img src="https://papier.imgix.net/https%3A%2F%2Fd1o785do8fyxgx.cloudfront.net%2Fstock_item%2Fstock_item_images%2Fimages%2F000%2F000%2F805%2Foriginal%2FEMP_HIGHLIGHTERS_MINI_BRIGHT_IDEAS_1_ECOMM_RESIZED.png%3F1676473984?ixlib=rb-3.2.1&w=352&h=352&auto=format%2Ccompress&s=140226b9e2e90f13cd34e3d0f47707f0"
+                            alt="">
+                        <img src="https://papier.imgix.net/https%3A%2F%2Fd1o785do8fyxgx.cloudfront.net%2Fstock_item%2Fstock_item_images%2Fimages%2F000%2F000%2F967%2Foriginal%2FON_THE_GO_SPIRAL_NOTEBOOK_BLUE_FRONT_TRANSPARENT_ECOMM.png%3F1680028525?ixlib=rb-3.2.1&w=352&h=352&auto=format%2Ccompress&s=4141ca6a672fcd24b3e0bb85594452d8"
+                            alt="">
                     </div>
                 </div>
             </div>
@@ -90,11 +131,67 @@
 
         <!-- start footer -->
         <footer>
-
+            <div class="container">
+                <div class="d-flex justify-between items-center">
+                    <div class="d-flex">
+                        <ul>
+                            <li>
+                                <h3>about us</h3>
+                            </li>
+                            <li>designer</li>
+                            <li>events</li>
+                            <li>gift cards</li>
+                            <li>whole sale</li>
+                        </ul>
+                    </div>
+                    <div class="d-flex">
+                        <ul>
+                            <li>
+                                <h3>resources</h3>
+                            </li>
+                            <li>promotions</li>
+                            <li>black Friday</li>
+                            <li>advent calender</li>
+                            <li>sale</li>
+                        </ul>
+                    </div>
+                    <div class="d-flex">
+                        <ul>
+                            <li>
+                                <h3>company</h3>
+                            </li>
+                            <li>about us</li>
+                            <li>store locator</li>
+                            <li>careers</li>
+                            <li>sustainability</li>
+                        </ul>
+                    </div>
+                    <div class="d-flex">
+                        <ul>
+                            <li>
+                                <h3>contact us</h3>
+                            </li>
+                            <li>FAQ</li>
+                            <li>shipping</li>
+                            <li>returns</li>
+                            <li>terms & collection</li>
+                        </ul>
+                    </div>
+                    <div class="d-flex">
+                        <div class="d-flex">
+                            <i class="fa-sharp fa-solid fa-star" style="color: #f4eee0;"></i>
+                            <i class="fa-sharp fa-solid fa-star" style="color: #f4eee0;"></i>
+                            <i class="fa-sharp fa-solid fa-star" style="color: #f4eee0;"></i>
+                            <i class="fa-sharp fa-solid fa-star" style="color: #f4eee0;"></i>
+                            <i class="fa-sharp fa-solid fa-star" style="color: #f4eee0;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </footer>
         <!-- end footer-->
     </div>
-
+    
 </body>
 
 </html>

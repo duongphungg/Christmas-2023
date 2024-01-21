@@ -7,7 +7,7 @@ header {
     left: 0;
     right: 0;
     background-color: #FFFEFA;
-    height: 7vh;
+    height: auto;
 }
 
 .menu {
@@ -15,6 +15,13 @@ header {
 }
 
 .menu .menu-item a {
+    padding: 8px 10px;
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.author a {
     padding: 8px 10px;
     text-decoration: none;
     color: #000;

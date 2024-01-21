@@ -1,0 +1,36 @@
+body {
+    background-color: #FFFFEC;
+}
+
+.search-box input {
+    width: 250px;
+    height: 25px;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+
+.title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Cookie', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.product-container {
+    flex-wrap: wrap;
+}
+
+.product-item {
+    width: 23%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    text-align: center;
+    background-color: #fff;
+    margin: 5px;
+    border: 5px;
+    padding-bottom: 10px;
+}
+
+.product-item img {
+    max-width: 70%;
+}
+

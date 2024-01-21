@@ -1,3 +1,4 @@
+
 main .slider {
     width: 100%;
     height: 80vh;
@@ -6,10 +7,23 @@ main .slider {
     background-size: cover;
 }
 
+main h1 {
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Cookie', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem
+}
 
+.title {
+    text-align: center;
+}
+
+/* intro */
 main .intro .video {
     width: 50%;
-
+    padding: 10px;
 }
 
 main .intro .intro-text {
@@ -21,5 +35,20 @@ main .intro .intro-text {
 main .intro .video iframe {
     width: 100%;
     height: 350px;
+}
+
+/* main-content */
+.main-content {
+    padding-top: 30px;
+}
+
+.main-content-product {
+    padding: 20px;
+}
+
+.main-content-product img {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    gap: 10px;
+    border-radius: 15px;
 }
 

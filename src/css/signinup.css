@@ -1,0 +1,39 @@
+
+.author-container {
+    padding: 15px;
+    margin: 100px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    max-width: 400px;
+    margin: 200px auto;
+    background-color: #fff;
+}
+
+h1 {
+    text-align: center;
+}
+
+.author-container .form-group {
+    margin: 8px 0px;
+}
+
+input {
+    width: 300px;
+    height: 35px;
+    padding: 7px 10px;
+}
+
+.author-container .form-group button {
+    padding: 8px 0px;
+    background-color: rgb(213, 3, 3);
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 300px;
+}
+
+a {
+    color: #000000;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}

@@ -17,6 +17,7 @@
 body {
     background-color: #F4EEE0;
 }
+
 main {
     margin-top: 10px;
 }
@@ -24,6 +25,10 @@ main {
 .d-flex {
     display: flex;
 
+}
+
+.justify-center {
+    justify-content: center;
 }
 
 .justify-between {
